@@ -1,125 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>freeCodeCampJXN - Flexbox</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header>
-        <div class="banner">
-            <h1>freeCodeCamp Jackson, Mississippi</h1>
-            <nav>
-                <ul>
-                    <a href="#levelone">
-                        <li>Level One</li>
-                    </a>
-                    <a href="#leveltwo">
-                        <li>Level Two</li>
-                    </a>
-                    <a href="#levelthree">
-                        <li>Level Three</li>
-                    </a>
-                    <a href="#levelfour">
-                        <li>Level Four</li>
-                    </a>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <h2>Flexbox Examples</h2>
-        <section id="levelone">
-            <header>   
-                <h3>Level 1 — Basic</h3>
-            </header>
-
-            <div class="subheader">
-                <h4>1) Creating a flex container</h4>
-                <p class="code-style">display: flex; </p>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>freeCodeCampJXN - Flexbox</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="banner">
+                <h1>freeCodeCamp Jackson, Mississippi</h1>
+                <nav>
+                    <ul>
+                        <a href="#levelone">
+                            <li>Level One</li>
+                        </a>
+                        <a href="#leveltwo">
+                            <li>Level Two</li>
+                        </a>
+                        <a href="#levelthree">
+                            <li>Level Three</li>
+                        </a>
+                        <a href="#levelfour">
+                            <li>Level Four</li>
+                        </a>
+                    </ul>
+                </nav>
             </div>
+        </header>
+        <main>
+            <h2>Flexbox Examples</h2>
+            <section id="levelone">
+                <header>   
+                    <h3>Level 1 — Basic</h3>
+                </header>
 
-            <div class="flex-container f-c-color">
-                    
-                <div class="flex-items one f-i-color">
-                    <img src="assets/darth_vader.jpg" alt="Luke, I am your father." width="225px">
-                    <p>One</p>
+                <div class="subheader">
+                    <h4>1) Creating a flex container</h4>
+                    <p class="code-style">display: flex; </p>
                 </div>
-                <div class="flex-items two f-i-color">
-                    <img src="assets/cookie_monster.jpeg" alt="Cookie! Cookie! Cookie!">
-                    <p>Two</p>
+
+                <div class="flex-container f-c-color">
+                        
+                    <div class="flex-items one f-i-color">
+                        <img src="assets/darth_vader.jpg" alt="Luke, I am your father." width="225px">
+                        <p>One</p>
+                    </div>
+                    <div class="flex-items two f-i-color">
+                        <img src="assets/cookie_monster.jpeg" alt="Cookie! Cookie! Cookie!">
+                        <p>Two</p>
+                    </div>
+                    <div class="flex-items three f-i-color">
+                        <img src="assets/captain_planet.jpeg" alt="With our powers combine, we are captain planet!">
+                        <p>Three</p>
+                    </div>
                 </div>
-                <div class="flex-items three f-i-color">
-                    <img src="assets/captain_planet.jpeg" alt="With our powers combine, we are captain planet!">
-                    <p>Three</p>
+
+                <div class="subheader">
+                    <h4>2) Put flex items in a single column</h4>
+                    <p class="code-style">flex-direction: column;</p>
+                </div> 
+
+                <div class="flex-container2 f-c-color">
+                        
+                    <div class="flex-items2 one2 f-i-color">
+                        <img src="assets/darth_vader.jpg" alt="Luke, I am your father." width="225px">
+                        <p>One</p>
+                    </div>
+                    <div class="flex-items2 two2 f-i-color">
+                        <img src="assets/cookie_monster.jpeg" alt="Cookie! Cookie! Cookie!">
+                        <p>Two</p>
+                    </div>
+                    <div class="flex-items2 three2 f-i-color">
+                        <img src="assets/captain_planet.jpeg" alt="With our powers combine, we are captain planet!">
+                        <p>Three</p>
+                    </div>
                 </div>
-            </div>
 
-            <div class="subheader">
-                <h4>2) Put flex items in a single column</h4>
-                <p class="code-style">flex-direction: column;</p>
-            </div> 
-
-            <div class="flex-container2 f-c-color">
-                    
-                <div class="flex-items2 one2 f-i-color">
-                    <img src="assets/darth_vader.jpg" alt="Luke, I am your father." width="225px">
-                    <p>One</p>
+                <div class="subheader">
+                    <p class="code-style">flex-direction: column-reverse;</p>
                 </div>
-                <div class="flex-items2 two2 f-i-color">
-                    <img src="assets/cookie_monster.jpeg" alt="Cookie! Cookie! Cookie!">
-                    <p>Two</p>
+
+                <div class="flex-container3 f-c-color">
+                        
+                    <div class="flex-items3 one3 f-i-color">
+                        <img src="assets/darth_vader.jpg" alt="Luke, I am your father." width="225px">
+                        <p>One</p>
+                    </div>
+                    <div class="flex-items3 two3 f-i-color">
+                        <img src="assets/cookie_monster.jpeg" alt="Cookie! Cookie! Cookie!">
+                        <p>Two</p>
+                    </div>
+                    <div class="flex-items3 three3 f-i-color">
+                        <img src="assets/captain_planet.jpeg" alt="With our powers combine, we are captain planet!">
+                        <p>Three</p>
+                    </div>
                 </div>
-                <div class="flex-items2 three2 f-i-color">
-                    <img src="assets/captain_planet.jpeg" alt="With our powers combine, we are captain planet!">
-                    <p>Three</p>
+
+
+            </section>
+    
+            <section class="#leveltwo">
+                <header>   
+                    <h3>Level 2 — Beginner</h3>
+                </header>
+                <div class="subheader">
+                    <h4>1) Creating a flex container</h4>
+                    <p class="code-style">display: flex; </p>
                 </div>
-            </div>
-
-            <div class="subheader">
-                <p class="code-style">flex-direction: column-reverse;</p>
-            </div>
-
-            <div class="flex-container3 f-c-color">
-                    
-                <div class="flex-items3 one3 f-i-color">
-                    <img src="assets/darth_vader.jpg" alt="Luke, I am your father." width="225px">
-                    <p>One</p>
+    
+                <div class="flex-container4 f-c-color">
+                        
+                    <div class="flex-items4 one4 f-i-color">
+                        <img src="assets/darth_vader.jpg" alt="Luke, I am your father." width="225px">
+                        <p>One</p>
+                    </div>
+                    <div class="flex-items4 two4 f-i-color">
+                        <img src="assets/cookie_monster.jpeg" alt="Cookie! Cookie! Cookie!">
+                        <p>Two</p>
+                    </div>
+                    <div class="flex-items4 three4 f-i-color">
+                        <img src="assets/captain_planet.jpeg" alt="With our powers combine, we are captain planet!">
+                        <p>Three</p>
+                    </div>
                 </div>
-                <div class="flex-items3 two3 f-i-color">
-                    <img src="assets/cookie_monster.jpeg" alt="Cookie! Cookie! Cookie!">
-                    <p>Two</p>
-                </div>
-                <div class="flex-items3 three3 f-i-color">
-                    <img src="assets/captain_planet.jpeg" alt="With our powers combine, we are captain planet!">
-                    <p>Three</p>
-                </div>
-            </div>
+
+            </section>
+
+            <section class="#levelthree">
+                <p>level three</p>
+            </section>
+
+            <section class="#levelfour">
+                <p>level four</p>
+            </section>
+        </main>
 
 
-        </section>
-   
-        <section class="#leveltwo">
-            <p>1) Align flex items to the right</p> 
-
-
-
-        </section>
-
-        <section class="#levelthree">
-            <p>level three</p>
-        </section>
-
-        <section class="#levelfour">
-            <p>level four</p>
-        </section>
-    </main>
-
-
-    <footer>
-        <h2>Thanks for visiting this page</h2>
-    </footer>
-</body>
+        <footer>
+            <h2>Thanks for visiting this page</h2>
+        </footer>
+    </body>
 </html>

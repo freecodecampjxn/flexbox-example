@@ -1,24 +1,24 @@
-body{
+body {
     background-color: cornflowerblue;
     text-align: center;
 }
 
-img{
+img {
     margin: 1em;
 }
 
-header{
+header {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.f-c-color{
+.f-c-color {
     background: whitesmoke;
 }
 
-.f-i-color{
+.f-i-color {
     width: 300px;
     background-color: black;
     color: white;
@@ -29,27 +29,31 @@ header{
 
 }
 
-.code{
+.code {
     background-color: black;
     color: white;
     font-family: serif;
 }
 
-/* level1 */
-.flex-container{
+/* level 1 */
+.flex-container {
     display: flex;
 }
 
-.flex-container2{
+.flex-container2 {
     display: flex;
     flex-direction: column;
 }
 
-.flex-container3{
+.flex-container3 {
     display: flex;
     flex-direction: column-reverse;
 }
 
-/* level2 */
+/* level 2 */
 
+.flex-container4 {
+    display: flex;
+    flex-direction: column-reverse;
+}
 
