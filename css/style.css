@@ -1,5 +1,6 @@
 body{
     background-color: cornflowerblue;
+    text-align: center;
 }
 
 img{
@@ -13,30 +14,42 @@ header{
     justify-content: center;
 }
 
-.flex-container{
+.f-c-color{
     background: whitesmoke;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex: 1 0 200px;
-    flex-wrap: wrap;
 }
 
-.flex-items{
+.f-i-color{
     width: 300px;
     background-color: black;
     color: white;
-    text-align: center;
-}
+    border: 1em skyblue dashed;
+    margin: 1em;
+    padding: 0;
 
-.one{
-
-}
-
-.two{
 
 }
 
-.three{
-
+.code{
+    background-color: black;
+    color: white;
+    font-family: serif;
 }
+
+/* level1 */
+.flex-container{
+    display: flex;
+}
+
+.flex-container2{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container3{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/* level2 */
+
+
