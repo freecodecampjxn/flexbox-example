@@ -1,3 +1,42 @@
 body{
-    background: cornflowerblue;
+    background-color: cornflowerblue;
+}
+
+img{
+    margin: 1em;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container{
+    background: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex: 1 0 200px;
+    flex-wrap: wrap;
+}
+
+.flex-items{
+    width: 300px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.one{
+
+}
+
+.two{
+
+}
+
+.three{
+
 }
