@@ -1,6 +1,7 @@
 body {
     background-color: cornflowerblue;
     text-align: center;
+    color: whitesmoke;
 }
 
 img {
@@ -14,6 +15,33 @@ header {
     justify-content: center;
 }
 
+.banner {
+    position: fixed;
+    margin-top: 50px;
+    background: cornflowerblue;
+    width: 100%;
+}
+
+
+nav ul li {
+    list-style: none;
+    margin: 1em;
+    text-decoration: none;
+
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: whitesmoke;
+    
+}
+
+main {
+    margin-top: 125px;
+}
+
 .f-c-color {
     background: whitesmoke;
 }
@@ -21,7 +49,6 @@ header {
 .f-i-color {
     width: 300px;
     background-color: black;
-    color: white;
     border: 1em skyblue dashed;
     margin: 1em;
     padding: 0;
@@ -29,12 +56,15 @@ header {
 
 }
 
+
 .code {
     background-color: black;
     color: white;
     font-family: serif;
 }
 
+.subheader {
+}
 /* level 1 */
 .flex-container {
     display: flex;
@@ -54,6 +84,12 @@ header {
 
 .flex-container4 {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.flex-container5 {
+    display: flex;
+    justify-content: center;
 }
 
