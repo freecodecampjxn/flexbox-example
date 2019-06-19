@@ -110,4 +110,25 @@ main {
     justify-content: space-around;
 }
 
+.flex-container9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.flex-container10 {
+    display: flex;
+    align-items: center;
+    height: 400px;
+}
+
+.three10{
+    align-self: flex-end;
+}
+
+.flex-container11 {
+    display: flex;
+    flex-wrap: wrap;
+}
 
