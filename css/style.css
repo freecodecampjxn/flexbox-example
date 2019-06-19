@@ -6,6 +6,8 @@ body {
 
 img {
     margin: 1em;
+    width:100px;
+    height: 100px;
 }
 
 header {
@@ -50,7 +52,7 @@ main {
     width: 300px;
     background-color: black;
     border: 1em skyblue dashed;
-    margin: 1em;
+    margin: 1rem;
     padding: 0;
 
 
@@ -92,4 +94,20 @@ main {
     display: flex;
     justify-content: center;
 }
+
+.flex-container6 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-container7 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-container8 {
+    display: flex;
+    justify-content: space-around;
+}
+
 
