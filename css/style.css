@@ -1,8 +1,12 @@
 body {
-    background-color: cornflowerblue;
+    background-color: #1b1b32;
     text-align: center;
     color: whitesmoke;
     font-family: 'Roboto Mono', monospace;
+}
+
+a {
+    color: #99c9ff;
 }
 
 img {
@@ -21,13 +25,14 @@ header {
 .banner {
     position: fixed;
     margin-top: 50px;
-    background: cornflowerblue;
+    background: #2a2a40;
     width: 100%;
 }
 
 .logo {
     width: 1000px;
-    margin-top: 200px;
+    margin-top: 180px;
+    margin-bottom: 0px;
 }
 
 nav ul li {
@@ -50,7 +55,7 @@ main {
 }
 
 .f-c-color {
-    background: whitesmoke;
+    background: #1b1b32;
 }
 
 .f-i-color {
