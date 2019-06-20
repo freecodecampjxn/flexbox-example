@@ -2,6 +2,7 @@ body {
     background-color: cornflowerblue;
     text-align: center;
     color: whitesmoke;
+    font-family: 'Roboto Mono', monospace;
 }
 
 img {
@@ -24,6 +25,10 @@ header {
     width: 100%;
 }
 
+.logo {
+    width: 1000px;
+    margin-top: 200px;
+}
 
 nav ul li {
     list-style: none;
