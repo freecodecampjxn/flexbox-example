@@ -1,18 +1,24 @@
+/* 
+
+These color choices come from the style guide at 
+https://design-style-guide.freecodecamp.org/
+
+background-color: #1b1b32;
+text-color: #f5f6f7
+Accent Colors: #dbb8ff #f1be32 #99c9ff #acd157
+*/
+
 body {
     background-color: #1b1b32;
     text-align: center;
-    color: whitesmoke;
+    color: #f5f6f7;
     font-family: 'Roboto Mono', monospace;
 }
 
-a {
-    color: #99c9ff;
-}
+/* Element Tag Styles in Alphabetical Order*/
 
-img {
-    margin: 1em;
-    width: 100px;
-    height: 100px;
+a {
+    color: #f5f6f7;
 }
 
 header {
@@ -22,10 +28,73 @@ header {
     justify-content: center;
 }
 
+hr {
+    color: #f5f6f7;
+    height: 2px;
+    width: 800px;
+}
+
+img {
+    margin: 1em;
+    width: 100px;
+    height: 100px;
+}
+
+main {
+    margin-top: 125px;
+}
+
+mark {
+    background-color: #1b1b32;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: whitesmoke;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0;
+    text-decoration: none;
+}
+
+/* Class Styles in Alphabetical Order*/
+
 .banner {
     position: fixed;
     background: #2a2a40;
     width: 100%;
+}
+
+.code {
+    background-color: black;
+    color: white;
+    font-family: serif;
+}
+
+.f-c-color {
+    background: #1b1b32;
+}
+
+.f-i-color {
+    width: 300px;
+    background-color: black;
+    border: 1em skyblue dashed;
+    margin: 1rem;
+    padding: 0;
+}
+
+.instruction {
+    font-size: 1.25em;
+}
+
+.level {
+    font-size: 2em;
+    margin-bottom: 5px;
 }
 
 .logo {
@@ -38,58 +107,9 @@ header {
     margin: 0 0;
 }
 
-.level {
-    font-size: 2em;
-}
-
-hr {
-    color: white;
-    width: 800px;
-}
-
-nav ul li {
-    list-style: none;
-    margin: 0;
-    text-decoration: none;
-
-}
-
-nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    color: whitesmoke;
-
-}
-
-main {
-    margin-top: 125px;
-}
-
-.f-c-color {
-    background: #1b1b32;
-}
-
-
-
-.f-i-color {
-    width: 300px;
-    background-color: black;
-    border: 1em skyblue dashed;
-    margin: 1rem;
-    padding: 0;
-
-
-}
-
-
-.code {
-    background-color: black;
-    color: white;
-    font-family: serif;
-}
-
 .subheader {}
+
+/* Flex-Container Stylings */
 
 /* level 1 */
 .flex-container {
