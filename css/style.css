@@ -11,7 +11,7 @@ a {
 
 img {
     margin: 1em;
-    width:100px;
+    width: 100px;
     height: 100px;
 }
 
@@ -24,20 +24,32 @@ header {
 
 .banner {
     position: fixed;
-    margin-top: 50px;
     background: #2a2a40;
     width: 100%;
 }
 
 .logo {
     width: 1000px;
-    margin-top: 180px;
+    margin-top: 200px;
     margin-bottom: 0px;
+}
+
+.logo-jackson {
+    margin: 0 0;
+}
+
+.level {
+    font-size: 2em;
+}
+
+hr {
+    color: white;
+    width: 800px;
 }
 
 nav ul li {
     list-style: none;
-    margin: 1em;
+    margin: 0;
     text-decoration: none;
 
 }
@@ -47,7 +59,7 @@ nav ul {
     flex-wrap: wrap;
     justify-content: space-evenly;
     color: whitesmoke;
-    
+
 }
 
 main {
@@ -57,6 +69,8 @@ main {
 .f-c-color {
     background: #1b1b32;
 }
+
+
 
 .f-i-color {
     width: 300px;
@@ -75,8 +89,8 @@ main {
     font-family: serif;
 }
 
-.subheader {
-}
+.subheader {}
+
 /* level 1 */
 .flex-container {
     display: flex;
@@ -133,7 +147,7 @@ main {
     height: 400px;
 }
 
-.three10{
+.three10 {
     align-self: flex-end;
 }
 
@@ -147,11 +161,8 @@ main {
     flex-wrap: wrap-reverse;
 }
 
-
 .flex-container12 {
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
 }
-
-
