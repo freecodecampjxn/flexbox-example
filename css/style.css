@@ -50,7 +50,7 @@ img {
 }
 
 main {
-    margin-top: 125px;
+    margin-top: 150px;
 }
 
 mark {
@@ -217,8 +217,17 @@ nav ul li {
     flex-wrap: wrap-reverse;
 }
 
-.flex-container12 {
+.flex-container13 {
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
 }
+
+.flex-container14 {
+    display: flex;
+
+}
+
+.flex-items14.one14 {flex-grow: 1;}
+
+.flex-item14.two14 {flex-grow: 2;}
