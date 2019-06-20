@@ -11,35 +11,44 @@
 </head>
 
 <body>
+    <!-- Here is the logo, the title, and the navbar -->
     <header>
         <div class="banner">
-            <img src="/assets/freeCodeCamp.png" alt="freeCodeCampLogo" class="logo">
-            <h1 class="logo-jackson">freeCodeCamp Jackson, Mississippi</h1>
+            <a href="https://www.freecodecamp.org">
+                <img src="/assets/freeCodeCamp.png" alt="freeCodeCampLogo" class="logo">
+            </a>
+            <a href="https://www.freecodecamp.org/forum/c/united-states-study-groups/jackson">
+                <h1 class="logo-jackson">freeCodeCamp Jackson, Mississippi</h1>
+            </a>
             <nav>
                 <ul>
-                    <a href="#levelone">
+                    <a href="#levelone" class="header-link">
                         <li>Level One</li>
                     </a>
-                    <a href="#leveltwo">
+                    <a href="#leveltwo" class="header-link">
                         <li>Level Two</li>
                     </a>
-                    <a href="#levelthree">
+                    <a href="#levelthree" class="header-link">
                         <li>Level Three</li>
                     </a>
-                    <a href="#levelfour">
+                    <a href="#levelfour" class="header-link">
                         <li>Level Four</li>
                     </a>
                 </ul>
             </nav>
         </div>
     </header>
+    <!-- The content begins here -->
     <main>
         <header>
             <h2>Flexbox Examples</h2>
             <p>See the freeCodeCamp article for a follow along: <mark>
                     <a href="https://www.freecodecamp.org/news/flexbox-in-10-minutes-7295497804ed/">
-                        Learn basic Flexbox in just 10 minutes</a></mark>.</p>
+                        Learn basic Flexbox in just 10 minutes</a></mark>
+            </p>
+            <h1 class="title">Flexbox Tutorial</h1>
         </header>
+
         <section id="levelone">
             <header>
                 <h3 class="level">Level 1 — Basic</h3>
@@ -47,12 +56,11 @@
             </header>
 
             <div class="subheader">
-                <h4>1) Creating a flex container</h4>
+                <h4 class="instruction">1) Creating a flex container</h4>
                 <p class="code-style">display: flex; </p>
             </div>
 
             <div class="flex-container f-c-color">
-
                 <div class="flex-items one f-i-color">
                     <img src="assets/darth_vader.jpg" alt="Luke, I am your father.">
                     <p>Div One</p>
@@ -68,12 +76,11 @@
             </div>
 
             <div class="subheader">
-                <h4>2) Put flex items in a single column</h4>
+                <h4 class="instruction">2) Put flex items in a single column</h4>
                 <p class="code-style">flex-direction: column;</p>
             </div>
 
             <div class="flex-container2 f-c-color">
-
                 <div class="flex-items2 one2 f-i-color">
                     <img src="assets/darth_vader.jpg" alt="Luke, I am your father.">
                     <p>Div One</p>
@@ -93,7 +100,6 @@
             </div>
 
             <div class="flex-container3 f-c-color">
-
                 <div class="flex-items3 one3 f-i-color">
                     <img src="assets/darth_vader.jpg" alt="Luke, I am your father.">
                     <p>Div One</p>
@@ -107,8 +113,6 @@
                     <p>Div Three</p>
                 </div>
             </div>
-
-
         </section>
 
         <section id="leveltwo">
@@ -117,12 +121,11 @@
                 <hr>
             </header>
             <div class="subheader">
-                <h4>1) Align flex items to the right</h4>
+                <h4 class="instruction">1) Align flex items to the right</h4>
                 <p class="code-style">justify-content: flex-end; </p>
             </div>
 
             <div class="flex-container4 f-c-color">
-
                 <div class="flex-items4 one4 f-i-color">
                     <img src="assets/yoda.jpg" alt="You must unlearn what you have learned.">
                     <p>Div One</p>
@@ -138,12 +141,11 @@
             </div>
 
             <div class="subheader">
-                <h4>2) Center-align flex items</h4>
+                <h4 class="instruction">2) Center-align flex items</h4>
                 <p class="code-style">justify-content: center;</p>
             </div>
 
             <div class="flex-container5 f-c-color">
-
                 <div class="flex-items5 one5 f-i-color">
                     <img src="assets/yoda.jpg" alt="You must unlearn what you have learned.">
                     <p>Div One</p>
@@ -158,9 +160,8 @@
                 </div>
             </div>
 
-
             <div class="subheader">
-                <h4>3) Spread out flex items</h4>
+                <h4 class="instruction">3) Spread out flex items</h4>
                 <p class="code-style">justify-content: space-evenly;</p>
             </div>
 
@@ -185,7 +186,6 @@
             </div>
 
             <div class="flex-container7 f-c-color">
-
                 <div class="flex-items7 one7 f-i-color">
                     <img src="assets/yoda.jpg" alt="You must unlearn what you have learned.">
                     <p>Div One</p>
@@ -205,7 +205,6 @@
             </div>
 
             <div class="flex-container8 f-c-color">
-
                 <div class="flex-items8 one8 f-i-color">
                     <img src="assets/yoda.jpg" alt="You must unlearn what you have learned.">
                     <p>Div One</p>
@@ -221,12 +220,11 @@
             </div>
 
             <div class="subheader">
-                <h4>4) Align flex items in a second direction</h4>
+                <h4 class="instruction">4) Align flex items in a second direction</h4>
                 <p class="code-style">justify-content: center; align-items: center;</p>
             </div>
 
             <div class="flex-container9 f-c-color">
-
                 <div class="flex-items9 one9 f-i-color">
                     <img src="assets/yoda.jpg" alt="You must unlearn what you have learned.">
                     <p>Div One</p>
@@ -242,13 +240,12 @@
             </div>
 
             <div class="subheader">
-                <h4>5) Align a particular flex item</h4>
+                <h4 class="instruction">5) Align a particular flex item</h4>
                 <p class="code-style">.flex-container10 {justify-content: center; align-items: center;}</p>
                 <p class="code-style">.three10 {align-items: flex-end};</p>
             </div>
 
             <div class="flex-container10 f-c-color">
-
                 <div class="flex-items10 one10 f-i-color">
                     <img src="assets/yoda.jpg" alt="You must unlearn what you have learned.">
                     <p>Div One</p>
@@ -262,12 +259,7 @@
                     <p>Div Three</p>
                 </div>
             </div>
-
             </div>
-
-
-
-
         </section>
 
         <section id="levelthree">
@@ -276,12 +268,11 @@
                 <hr>
             </header>
             <div class="subheader">
-                <h4>1) Allow flex items to wrap into other rows/columns</h4>
+                <h4 class="instruction">1) Allow flex items to wrap into other rows/columns</h4>
                 <p class="code-style">flex-wrap: wrap;</p>
             </div>
 
             <div class="flex-container11 f-c-color">
-
                 <div class="flex-items11 one11 f-i-color">
                     <img src="assets/r2-d2.jpeg" alt="Bleep! Bleep!">
                     <p>Div One</p>
@@ -296,14 +287,12 @@
                 </div>
             </div>
 
-
             <div class="subheader">
-                <h4>2) Reverse wrapping</h4>
+                <h4 class="instruction">2) Reverse wrapping</h4>
                 <p class="code-style">flex-wrap: wrap-reverse;</p>
             </div>
 
             <div class="flex-container12 f-c-color">
-
                 <div class="flex-items12 one12 f-i-color">
                     <img src="assets/r2-d2.jpeg" alt="Bleep! Bleep!">
                     <p>Div One</p>
@@ -318,14 +307,12 @@
                 </div>
             </div>
 
-
             <div class="subheader">
-                <h4>3) Justify position of lines of elements</h4>
+                <h4 class="instruction">3) Justify position of lines of elements</h4>
                 <p class="code-style"> flex-wrap: wrap; align-content: flex-start;</p>
             </div>
 
             <div class="flex-container13 f-c-color">
-
                 <div class="flex-items13 one13 f-i-color">
                     <img src="assets/r2-d2.jpeg" alt="Bleep! Bleep!">
                     <p>Div One</p>
@@ -339,9 +326,6 @@
                     <p>Div Three</p>
                 </div>
             </div>
-
-
-
         </section>
 
         <!-- <section id="levelfour">
@@ -349,10 +333,14 @@
             <hr>
         </section> -->
     </main>
-
-
     <footer>
-        <h2>Thanks for visiting this page</h2>
+        <h2>Thanks for visiting this tutorial - we would love to have you join us 
+            at one of our monthly meetings or our period virtual meetings.
+        </h2>
+        <h2>Check out the 
+            <a href="https://www.freecodecamp.org/forum/c/united-states-study-groups/jackson/l/calendar">calendar page</a>
+             on the freeCodeCampJXN page for details.
+        </h2>
     </footer>
 </body>
 

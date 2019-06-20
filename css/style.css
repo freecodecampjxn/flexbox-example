@@ -1,18 +1,33 @@
+/* 
+Stylesheet Organization:
+1. Elements
+2. Classes
+3. IDs
+4. Flexbox Specific Classes
+
+These color choices come from the style guide at 
+https://design-style-guide.freecodecamp.org/
+
+background-color: #1b1b32
+text-color: #f5f6f7
+Accent Colors: #dbb8ff #f1be32 #99c9ff #acd157
+*/
+
 body {
     background-color: #1b1b32;
     text-align: center;
-    color: whitesmoke;
+    color: #f5f6f7;
     font-family: 'Roboto Mono', monospace;
 }
 
+/* Element Tag Styles in Alphabetical Order*/
+
 a {
-    color: #99c9ff;
+    color: #f5f6f7;
 }
 
-img {
-    margin: 1em;
-    width: 100px;
-    height: 100px;
+footer {
+    margin-top: 2em;
 }
 
 header {
@@ -22,36 +37,24 @@ header {
     justify-content: center;
 }
 
-.banner {
-    position: fixed;
-    background: #2a2a40;
-    width: 100%;
-}
-
-.logo {
-    width: 1000px;
-    margin-top: 200px;
-    margin-bottom: 0px;
-}
-
-.logo-jackson {
-    margin: 0 0;
-}
-
-.level {
-    font-size: 2em;
-}
-
 hr {
-    color: white;
-    width: 800px;
+    color: #f5f6f7;
+    height: 2px;
+    width: 650px;
 }
 
-nav ul li {
-    list-style: none;
-    margin: 0;
-    text-decoration: none;
+img {
+    margin: 1em;
+    width: 100px;
+    height: 100px;
+}
 
+main {
+    margin-top: 125px;
+}
+
+mark {
+    background-color: #1b1b32;
 }
 
 nav ul {
@@ -62,26 +65,19 @@ nav ul {
 
 }
 
-main {
-    margin-top: 125px;
+nav ul li {
+    list-style: none;
+    margin: 0;
+    text-decoration: none;
 }
 
-.f-c-color {
-    background: #1b1b32;
+/* Class Styles in Alphabetical Order*/
+
+.banner {
+    position: fixed;
+    background: #2a2a40;
+    width: 100%;
 }
-
-
-
-.f-i-color {
-    width: 300px;
-    background-color: black;
-    border: 1em skyblue dashed;
-    margin: 1rem;
-    padding: 0;
-
-
-}
-
 
 .code {
     background-color: black;
@@ -89,7 +85,67 @@ main {
     font-family: serif;
 }
 
+.f-c-color {
+    background: #1b1b32;
+}
+
+.f-i-color {
+    width: 300px;
+    background-color: black;
+    border: 1em skyblue dashed;
+    margin: 1rem;
+    padding: 0;
+}
+
+.header-link:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
+.instruction {
+    font-size: 1.25em;
+}
+
+.level {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.logo {
+    width: 1000px;
+    margin-top: 210px;
+    margin-bottom: 0px;
+}
+
+.logo:hover {
+    transform: scale(1.025);
+}
+
+.logo-jackson {
+    margin: 0 0;
+}
+
+.logo-jackson:hover {
+    transform: scale(1.03);
+    color: white;
+}
+
 .subheader {}
+
+.title {
+    font-size: 5em;
+    margin: .5em;
+    margin-bottom: 0;
+    color: #99c9ff;
+}
+
+/* IDs in alphabetical order */
+
+#levelone {
+    margin-top: 0;
+}
+
+/* Flex-Container Stylings */
 
 /* level 1 */
 .flex-container {
