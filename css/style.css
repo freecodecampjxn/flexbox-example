@@ -1,9 +1,14 @@
 /* 
+Stylesheet Organization:
+1. Elements
+2. Classes
+3. IDs
+4. Flexbox Specific Classes
 
 These color choices come from the style guide at 
 https://design-style-guide.freecodecamp.org/
 
-background-color: #1b1b32;
+background-color: #1b1b32
 text-color: #f5f6f7
 Accent Colors: #dbb8ff #f1be32 #99c9ff #acd157
 */
@@ -19,6 +24,10 @@ body {
 
 a {
     color: #f5f6f7;
+}
+
+footer {
+    margin-top: 2em;
 }
 
 header {
@@ -88,6 +97,11 @@ nav ul li {
     padding: 0;
 }
 
+.header-link:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
 .instruction {
     font-size: 1.25em;
 }
@@ -99,12 +113,21 @@ nav ul li {
 
 .logo {
     width: 1000px;
-    margin-top: 200px;
+    margin-top: 210px;
     margin-bottom: 0px;
+}
+
+.logo:hover {
+    transform: scale(1.025);
 }
 
 .logo-jackson {
     margin: 0 0;
+}
+
+.logo-jackson:hover {
+    transform: scale(1.03);
+    color: white;
 }
 
 .subheader {}
