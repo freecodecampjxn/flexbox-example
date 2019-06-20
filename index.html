@@ -1,350 +1,359 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>freeCodeCampJXN - Flexbox</title>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>freeCodeCampJXN - Flexbox</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="banner">
+            <img src="/assets/freeCodeCamp.png" alt="freeCodeCampLogo" class="logo">
+            <h1 class="logo-jackson">freeCodeCamp Jackson, Mississippi</h1>
+            <nav>
+                <ul>
+                    <a href="#levelone">
+                        <li>Level One</li>
+                    </a>
+                    <a href="#leveltwo">
+                        <li>Level Two</li>
+                    </a>
+                    <a href="#levelthree">
+                        <li>Level Three</li>
+                    </a>
+                    <a href="#levelfour">
+                        <li>Level Four</li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
         <header>
-            <div class="banner">
-                <h1>freeCodeCamp Jackson, Mississippi</h1>
-                <nav>
-                    <ul>
-                        <a href="#levelone">
-                            <li>Level One</li>
-                        </a>
-                        <a href="#leveltwo">
-                            <li>Level Two</li>
-                        </a>
-                        <a href="#levelthree">
-                            <li>Level Three</li>
-                        </a>
-                        <a href="#levelfour">
-                            <li>Level Four</li>
-                        </a>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <main>
-            <header>
-                <h2>Flexbox Examples</h2>
-                <p>See the freeCodeCamp article for a follow along: <mark>
+            <h2>Flexbox Examples</h2>
+            <p>See the freeCodeCamp article for a follow along: <mark>
                     <a href="https://www.freecodecamp.org/news/flexbox-in-10-minutes-7295497804ed/">
                         Learn basic Flexbox in just 10 minutes</a></mark>.</p>
+        </header>
+        <section id="levelone">
+            <header>
+                <h3 class="level">Level 1 — Basic</h3>
+                <hr>
             </header>
-            <section id="levelone">
-                <header>   
-                    <h3>Level 1 — Basic</h3>
-                </header>
 
-                <div class="subheader">
-                    <h4>1) Creating a flex container</h4>
-                    <p class="code-style">display: flex; </p>
+            <div class="subheader">
+                <h4>1) Creating a flex container</h4>
+                <p class="code-style">display: flex; </p>
+            </div>
+
+            <div class="flex-container f-c-color">
+
+                <div class="flex-items one f-i-color">
+                    <img src="assets/darth_vader.jpg" alt="Luke, I am your father.">
+                    <p>Div One</p>
                 </div>
-
-                <div class="flex-container f-c-color">
-                        
-                    <div class="flex-items one f-i-color">
-                        <img src="assets/darth_vader.jpg" alt="Luke, I am your father.">
-                        <p>Div One</p>
-                    </div>
-                    <div class="flex-items two f-i-color">
-                        <img src="assets/cookie_monster.jpeg" alt="Cookie! Cookie! Cookie!">
-                        <p>Div Two</p>
-                    </div>
-                    <div class="flex-items three f-i-color">
-                        <img src="assets/captain_planet.jpeg" alt="With our powers combine, we are captain planet!">
-                        <p>Div Three</p>
-                    </div>
+                <div class="flex-items two f-i-color">
+                    <img src="assets/cookie_monster.jpeg" alt="Cookie! Cookie! Cookie!">
+                    <p>Div Two</p>
                 </div>
-
-                <div class="subheader">
-                    <h4>2) Put flex items in a single column</h4>
-                    <p class="code-style">flex-direction: column;</p>
-                </div> 
-
-                <div class="flex-container2 f-c-color">
-                        
-                    <div class="flex-items2 one2 f-i-color">
-                        <img src="assets/darth_vader.jpg" alt="Luke, I am your father.">
-                        <p>Div One</p>
-                    </div>
-                    <div class="flex-items2 two2 f-i-color">
-                        <img src="assets/cookie_monster.jpeg" alt="Cookie! Cookie! Cookie!">
-                        <p>Div Two</p>
-                    </div>
-                    <div class="flex-items2 three2 f-i-color">
-                        <img src="assets/captain_planet.jpeg" alt="With our powers combine, we are captain planet!">
-                        <p>Div Three</p>
-                    </div>
+                <div class="flex-items three f-i-color">
+                    <img src="assets/captain_planet.jpeg" alt="With our powers combine, we are captain planet!">
+                    <p>Div Three</p>
                 </div>
+            </div>
 
-                <div class="subheader">
-                    <p class="code-style">flex-direction: column-reverse;</p>
+            <div class="subheader">
+                <h4>2) Put flex items in a single column</h4>
+                <p class="code-style">flex-direction: column;</p>
+            </div>
+
+            <div class="flex-container2 f-c-color">
+
+                <div class="flex-items2 one2 f-i-color">
+                    <img src="assets/darth_vader.jpg" alt="Luke, I am your father.">
+                    <p>Div One</p>
                 </div>
-
-                <div class="flex-container3 f-c-color">
-                        
-                    <div class="flex-items3 one3 f-i-color">
-                        <img src="assets/darth_vader.jpg" alt="Luke, I am your father.">
-                        <p>Div One</p>
-                    </div>
-                    <div class="flex-items3 two3 f-i-color">
-                        <img src="assets/cookie_monster.jpeg" alt="Cookie! Cookie! Cookie!">
-                        <p>Div Two</p>
-                    </div>
-                    <div class="flex-items3 three3 f-i-color">
-                        <img src="assets/captain_planet.jpeg" alt="With our powers combine, we are captain planet!">
-                        <p>Div Three</p>
-                    </div>
+                <div class="flex-items2 two2 f-i-color">
+                    <img src="assets/cookie_monster.jpeg" alt="Cookie! Cookie! Cookie!">
+                    <p>Div Two</p>
                 </div>
-
-
-            </section>
-    
-            <section id="leveltwo">
-                <header>   
-                    <h3>Level 2 — Beginner</h3>
-                </header>
-                <div class="subheader">
-                    <h4>1) Align flex items to the right</h4>
-                    <p class="code-style">justify-content: flex-end; </p>
+                <div class="flex-items2 three2 f-i-color">
+                    <img src="assets/captain_planet.jpeg" alt="With our powers combine, we are captain planet!">
+                    <p>Div Three</p>
                 </div>
-    
-                <div class="flex-container4 f-c-color">
-                        
-                    <div class="flex-items4 one4 f-i-color">
-                        <img src="assets/yoda.jpg" alt="You must unlearn what you have learned.">
-                        <p>Div One</p>
-                    </div>
-                    <div class="flex-items4 two4 f-i-color">
-                        <img src="assets/oscar.jpg" alt="You name it! I hate it!">
-                        <p>Div Two</p>
-                    </div>
-                    <div class="flex-items4 three4 f-i-color">
-                        <img src="assets/raphael.jpg" alt="Cowabunga dudes!">
-                        <p>Div Three</p>
-                    </div>
+            </div>
+
+            <div class="subheader">
+                <p class="code-style">flex-direction: column-reverse;</p>
+            </div>
+
+            <div class="flex-container3 f-c-color">
+
+                <div class="flex-items3 one3 f-i-color">
+                    <img src="assets/darth_vader.jpg" alt="Luke, I am your father.">
+                    <p>Div One</p>
                 </div>
-
-                <div class="subheader">
-                    <h4>2) Center-align flex items</h4>
-                    <p class="code-style">justify-content: center;</p>
+                <div class="flex-items3 two3 f-i-color">
+                    <img src="assets/cookie_monster.jpeg" alt="Cookie! Cookie! Cookie!">
+                    <p>Div Two</p>
                 </div>
-    
-                <div class="flex-container5 f-c-color">
-                        
-                    <div class="flex-items5 one5 f-i-color">
-                        <img src="assets/yoda.jpg" alt="You must unlearn what you have learned.">
-                        <p>Div One</p>
-                    </div>
-                    <div class="flex-items5 two5 f-i-color">
-                        <img src="assets/oscar.jpg" alt="You name it! I hate it!">
-                        <p>Div Two</p>
-                    </div>
-                    <div class="flex-items5 three5 f-i-color">
-                        <img src="assets/raphael.jpg" alt="Cowabunga dudes!">
-                        <p>Div Three</p>
-                    </div>
+                <div class="flex-items3 three3 f-i-color">
+                    <img src="assets/captain_planet.jpeg" alt="With our powers combine, we are captain planet!">
+                    <p>Div Three</p>
                 </div>
+            </div>
 
 
-                <div class="subheader">
-                    <h4>3) Spread out flex items</h4>
-                    <p class="code-style">justify-content: space-evenly;</p>
+        </section>
+
+        <section id="leveltwo">
+            <header>
+                <h3 class="level">Level 2 — Beginner</h3>
+                <hr>
+            </header>
+            <div class="subheader">
+                <h4>1) Align flex items to the right</h4>
+                <p class="code-style">justify-content: flex-end; </p>
+            </div>
+
+            <div class="flex-container4 f-c-color">
+
+                <div class="flex-items4 one4 f-i-color">
+                    <img src="assets/yoda.jpg" alt="You must unlearn what you have learned.">
+                    <p>Div One</p>
                 </div>
-    
-                <div class="flex-container6 f-c-color">
-                        
-                    <div class="flex-items6 one6 f-i-color">
-                        <img src="assets/yoda.jpg" alt="You must unlearn what you have learned.">
-                        <p>Div One</p>
-                    </div>
-                    <div class="flex-items6 two6 f-i-color">
-                        <img src="assets/oscar.jpg" alt="You name it! I hate it!">
-                        <p>Div Two</p>
-                    </div>
-                    <div class="flex-items6 three6 f-i-color">
-                        <img src="assets/raphael.jpg" alt="Cowabunga dudes!">
-                        <p>Div Three</p>
-                    </div>
+                <div class="flex-items4 two4 f-i-color">
+                    <img src="assets/oscar.jpg" alt="You name it! I hate it!">
+                    <p>Div Two</p>
                 </div>
-
-                <div class="subheader">
-                    <p class="code-style">justify-content: space-between;</p>
+                <div class="flex-items4 three4 f-i-color">
+                    <img src="assets/raphael.jpg" alt="Cowabunga dudes!">
+                    <p>Div Three</p>
                 </div>
-    
-                <div class="flex-container7 f-c-color">
-                        
-                    <div class="flex-items7 one7 f-i-color">
-                        <img src="assets/yoda.jpg" alt="You must unlearn what you have learned.">
-                        <p>Div One</p>
-                    </div>
-                    <div class="flex-items7 two7 f-i-color">
-                        <img src="assets/oscar.jpg" alt="You name it! I hate it!">
-                        <p>Div Two</p>
-                    </div>
-                    <div class="flex-items7 three7 f-i-color">
-                        <img src="assets/raphael.jpg" alt="Cowabunga dudes!">
-                        <p>Div Three</p>
-                    </div>
+            </div>
+
+            <div class="subheader">
+                <h4>2) Center-align flex items</h4>
+                <p class="code-style">justify-content: center;</p>
+            </div>
+
+            <div class="flex-container5 f-c-color">
+
+                <div class="flex-items5 one5 f-i-color">
+                    <img src="assets/yoda.jpg" alt="You must unlearn what you have learned.">
+                    <p>Div One</p>
                 </div>
-
-                <div class="subheader">
-                    <p class="code-style">justify-content: space-around;</p>
-                </div>                    
-
-                <div class="flex-container8 f-c-color">
-                        
-                    <div class="flex-items8 one8 f-i-color">
-                        <img src="assets/yoda.jpg" alt="You must unlearn what you have learned.">
-                        <p>Div One</p>
-                    </div>
-                    <div class="flex-items8 two8 f-i-color">
-                        <img src="assets/oscar.jpg" alt="You name it! I hate it!">
-                        <p>Div Two</p>
-                    </div>
-                    <div class="flex-items8 three8 f-i-color">
-                        <img src="assets/raphael.jpg" alt="Cowabunga dudes!">
-                        <p>Div Three</p>
-                    </div>
+                <div class="flex-items5 two5 f-i-color">
+                    <img src="assets/oscar.jpg" alt="You name it! I hate it!">
+                    <p>Div Two</p>
                 </div>
-
-                <div class="subheader">
-                    <h4>4) Align flex items in a second direction</h4>
-                    <p class="code-style">justify-content: center; align-items: center;</p>
-                </div>                    
-
-                <div class="flex-container9 f-c-color">
-                        
-                    <div class="flex-items9 one9 f-i-color">
-                        <img src="assets/yoda.jpg" alt="You must unlearn what you have learned.">
-                        <p>Div One</p>
-                    </div>
-                    <div class="flex-items9 two9 f-i-color">
-                        <img src="assets/oscar.jpg" alt="You name it! I hate it!">
-                        <p>Div Two</p>
-                    </div>
-                    <div class="flex-items9 three9 f-i-color">
-                        <img src="assets/raphael.jpg" alt="Cowabunga dudes!">
-                        <p>Div Three</p>
-                    </div>
+                <div class="flex-items5 three5 f-i-color">
+                    <img src="assets/raphael.jpg" alt="Cowabunga dudes!">
+                    <p>Div Three</p>
                 </div>
+            </div>
 
-                <div class="subheader">
-                        <h4>5) Align a particular flex item</h4>
-                        <p class="code-style">.flex-container10 {justify-content: center; align-items: center;}</p>
-                        <p class="code-style">.three10 {align-items: flex-end};</p>
-                    </div>                    
 
-                    <div class="flex-container10 f-c-color">
-                            
-                        <div class="flex-items10 one10 f-i-color">
-                            <img src="assets/yoda.jpg" alt="You must unlearn what you have learned.">
-                            <p>Div One</p>
-                        </div>
-                        <div class="flex-items10 two10 f-i-color">
-                            <img src="assets/oscar.jpg" alt="You name it! I hate it!">
-                            <p>Div Two</p>
-                        </div>
-                        <div class="flex-items10 three10 f-i-color">
-                            <img src="assets/raphael.jpg" alt="Cowabunga dudes!">
-                            <p>Div Three</p>
-                        </div>
-                    </div>
+            <div class="subheader">
+                <h4>3) Spread out flex items</h4>
+                <p class="code-style">justify-content: space-evenly;</p>
+            </div>
 
+            <div class="flex-container6 f-c-color">
+
+                <div class="flex-items6 one6 f-i-color">
+                    <img src="assets/yoda.jpg" alt="You must unlearn what you have learned.">
+                    <p>Div One</p>
                 </div>
+                <div class="flex-items6 two6 f-i-color">
+                    <img src="assets/oscar.jpg" alt="You name it! I hate it!">
+                    <p>Div Two</p>
+                </div>
+                <div class="flex-items6 three6 f-i-color">
+                    <img src="assets/raphael.jpg" alt="Cowabunga dudes!">
+                    <p>Div Three</p>
+                </div>
+            </div>
+
+            <div class="subheader">
+                <p class="code-style">justify-content: space-between;</p>
+            </div>
+
+            <div class="flex-container7 f-c-color">
+
+                <div class="flex-items7 one7 f-i-color">
+                    <img src="assets/yoda.jpg" alt="You must unlearn what you have learned.">
+                    <p>Div One</p>
+                </div>
+                <div class="flex-items7 two7 f-i-color">
+                    <img src="assets/oscar.jpg" alt="You name it! I hate it!">
+                    <p>Div Two</p>
+                </div>
+                <div class="flex-items7 three7 f-i-color">
+                    <img src="assets/raphael.jpg" alt="Cowabunga dudes!">
+                    <p>Div Three</p>
+                </div>
+            </div>
+
+            <div class="subheader">
+                <p class="code-style">justify-content: space-around;</p>
+            </div>
+
+            <div class="flex-container8 f-c-color">
+
+                <div class="flex-items8 one8 f-i-color">
+                    <img src="assets/yoda.jpg" alt="You must unlearn what you have learned.">
+                    <p>Div One</p>
+                </div>
+                <div class="flex-items8 two8 f-i-color">
+                    <img src="assets/oscar.jpg" alt="You name it! I hate it!">
+                    <p>Div Two</p>
+                </div>
+                <div class="flex-items8 three8 f-i-color">
+                    <img src="assets/raphael.jpg" alt="Cowabunga dudes!">
+                    <p>Div Three</p>
+                </div>
+            </div>
+
+            <div class="subheader">
+                <h4>4) Align flex items in a second direction</h4>
+                <p class="code-style">justify-content: center; align-items: center;</p>
+            </div>
+
+            <div class="flex-container9 f-c-color">
+
+                <div class="flex-items9 one9 f-i-color">
+                    <img src="assets/yoda.jpg" alt="You must unlearn what you have learned.">
+                    <p>Div One</p>
+                </div>
+                <div class="flex-items9 two9 f-i-color">
+                    <img src="assets/oscar.jpg" alt="You name it! I hate it!">
+                    <p>Div Two</p>
+                </div>
+                <div class="flex-items9 three9 f-i-color">
+                    <img src="assets/raphael.jpg" alt="Cowabunga dudes!">
+                    <p>Div Three</p>
+                </div>
+            </div>
+
+            <div class="subheader">
+                <h4>5) Align a particular flex item</h4>
+                <p class="code-style">.flex-container10 {justify-content: center; align-items: center;}</p>
+                <p class="code-style">.three10 {align-items: flex-end};</p>
+            </div>
+
+            <div class="flex-container10 f-c-color">
+
+                <div class="flex-items10 one10 f-i-color">
+                    <img src="assets/yoda.jpg" alt="You must unlearn what you have learned.">
+                    <p>Div One</p>
+                </div>
+                <div class="flex-items10 two10 f-i-color">
+                    <img src="assets/oscar.jpg" alt="You name it! I hate it!">
+                    <p>Div Two</p>
+                </div>
+                <div class="flex-items10 three10 f-i-color">
+                    <img src="assets/raphael.jpg" alt="Cowabunga dudes!">
+                    <p>Div Three</p>
+                </div>
+            </div>
+
+            </div>
 
 
 
 
-            </section>
+        </section>
 
-            <section id="levelthree">
-                    <header>   
-                            <h3>Level 3 — Intermediate</h3>
-                        </header>
-                        <div class="subheader">
-                            <h4>1) Allow flex items to wrap into other rows/columns</h4>
-                            <p class="code-style">flex-wrap: wrap;</p>
-                        </div>
-            
-                        <div class="flex-container11 f-c-color">
-                                
-                            <div class="flex-items11 one11 f-i-color">
-                                <img src="assets/r2-d2.jpeg" alt="Bleep! Bleep!">
-                                <p>Div One</p>
-                            </div>
-                            <div class="flex-items11 two11 f-i-color">
-                                <img src="assets/elmo.jpg" alt="Elmo's world! La! La! La! La!">
-                                <p>Div Two</p>
-                            </div>
-                            <div class="flex-items11 three11 f-i-color">
-                                <img src="assets/he_man.jpg" alt="I have the power!">
-                                <p>Div Three</p>
-                            </div>
-                        </div>
+        <section id="levelthree">
+            <header>
+                <h3 class="level">Level 3 — Intermediate</h3>
+                <hr>
+            </header>
+            <div class="subheader">
+                <h4>1) Allow flex items to wrap into other rows/columns</h4>
+                <p class="code-style">flex-wrap: wrap;</p>
+            </div>
 
+            <div class="flex-container11 f-c-color">
 
-                        <div class="subheader">
-                            <h4>2) Reverse wrapping</h4>
-                            <p class="code-style">flex-wrap: wrap-reverse;</p>
-                        </div>
-                
-                        <div class="flex-container12 f-c-color">
-                                
-                            <div class="flex-items12 one12 f-i-color">
-                                <img src="assets/r2-d2.jpeg" alt="Bleep! Bleep!">
-                                <p>Div One</p>
-                            </div>
-                            <div class="flex-items12 two12 f-i-color">
-                                <img src="assets/elmo.jpg" alt="Elmo's world! La! La! La! La!">
-                                <p>Div Two</p>
-                            </div>
-                            <div class="flex-items12 three12 f-i-color">
-                                <img src="assets/he_man.jpg" alt="I have the power!">
-                                <p>Div Three</p>
-                            </div>
-                        </div>
-
-                        
-                        <div class="subheader">
-                            <h4>3) Justify position of lines of elements</h4>
-                            <p class="code-style"> flex-wrap: wrap;  align-content: flex-start;</p>
-                        </div>
-                
-                        <div class="flex-container13 f-c-color">
-                                
-                            <div class="flex-items13 one13 f-i-color">
-                                <img src="assets/r2-d2.jpeg" alt="Bleep! Bleep!">
-                                <p>Div One</p>
-                            </div>
-                            <div class="flex-items13 two13 f-i-color">
-                                <img src="assets/elmo.jpg" alt="Elmo's world! La! La! La! La!">
-                                <p>Div Two</p>
-                            </div>
-                            <div class="flex-items13 three13 f-i-color">
-                                <img src="assets/he_man.jpg" alt="I have the power!">
-                                <p>Div Three</p>
-                            </div>
-                        </div>
-        
+                <div class="flex-items11 one11 f-i-color">
+                    <img src="assets/r2-d2.jpeg" alt="Bleep! Bleep!">
+                    <p>Div One</p>
+                </div>
+                <div class="flex-items11 two11 f-i-color">
+                    <img src="assets/elmo.jpg" alt="Elmo's world! La! La! La! La!">
+                    <p>Div Two</p>
+                </div>
+                <div class="flex-items11 three11 f-i-color">
+                    <img src="assets/he_man.jpg" alt="I have the power!">
+                    <p>Div Three</p>
+                </div>
+            </div>
 
 
-            </section>
+            <div class="subheader">
+                <h4>2) Reverse wrapping</h4>
+                <p class="code-style">flex-wrap: wrap-reverse;</p>
+            </div>
 
-            <section id="levelfour">
-                <p>level four</p>
-            </section>
-        </main>
+            <div class="flex-container12 f-c-color">
+
+                <div class="flex-items12 one12 f-i-color">
+                    <img src="assets/r2-d2.jpeg" alt="Bleep! Bleep!">
+                    <p>Div One</p>
+                </div>
+                <div class="flex-items12 two12 f-i-color">
+                    <img src="assets/elmo.jpg" alt="Elmo's world! La! La! La! La!">
+                    <p>Div Two</p>
+                </div>
+                <div class="flex-items12 three12 f-i-color">
+                    <img src="assets/he_man.jpg" alt="I have the power!">
+                    <p>Div Three</p>
+                </div>
+            </div>
 
 
-        <footer>
-            <h2>Thanks for visiting this page</h2>
-        </footer>
-    </body>
+            <div class="subheader">
+                <h4>3) Justify position of lines of elements</h4>
+                <p class="code-style"> flex-wrap: wrap; align-content: flex-start;</p>
+            </div>
+
+            <div class="flex-container13 f-c-color">
+
+                <div class="flex-items13 one13 f-i-color">
+                    <img src="assets/r2-d2.jpeg" alt="Bleep! Bleep!">
+                    <p>Div One</p>
+                </div>
+                <div class="flex-items13 two13 f-i-color">
+                    <img src="assets/elmo.jpg" alt="Elmo's world! La! La! La! La!">
+                    <p>Div Two</p>
+                </div>
+                <div class="flex-items13 three13 f-i-color">
+                    <img src="assets/he_man.jpg" alt="I have the power!">
+                    <p>Div Three</p>
+                </div>
+            </div>
+
+
+
+        </section>
+
+        <!-- <section id="levelfour">
+            <h3 class="level">Level Four</h3>
+            <hr>
+        </section> -->
+    </main>
+
+
+    <footer>
+        <h2>Thanks for visiting this page</h2>
+    </footer>
+</body>
+
 </html>
