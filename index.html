@@ -63,7 +63,7 @@
 
             <div class="subheader">
                 <h4 class="instruction">1) Creating a flex container</h4>
-                <p class="code-style">display: flex; </p>
+                <p class="code-style">{ display: flex; }</p>
             </div>
 
             <div class="flex-container f-c-color">
@@ -83,7 +83,7 @@
 
             <div class="subheader">
                 <h4 class="instruction">2) Put flex items in a single column</h4>
-                <p class="code-style">flex-direction: column;</p>
+                <p class="code-style">{ flex-direction: column; }</p>
             </div>
 
             <div class="flex-container2 f-c-color">
@@ -102,7 +102,7 @@
             </div>
 
             <div class="subheader">
-                <p class="code-style">flex-direction: column-reverse;</p>
+                <p class="code-style">{ flex-direction: column-reverse; }</p>
             </div>
 
             <div class="flex-container3 f-c-color">
@@ -128,7 +128,7 @@
             </header>
             <div class="subheader">
                 <h4 class="instruction">1) Align flex items to the right</h4>
-                <p class="code-style">justify-content: flex-end; </p>
+                <p class="code-style">{ justify-content: flex-end; }</p>
             </div>
 
             <div class="flex-container4 f-c-color">
@@ -148,7 +148,7 @@
 
             <div class="subheader">
                 <h4 class="instruction">2) Center-align flex items</h4>
-                <p class="code-style">justify-content: center;</p>
+                <p class="code-style">{ justify-content: center;} </p>
             </div>
 
             <div class="flex-container5 f-c-color">
@@ -168,7 +168,7 @@
 
             <div class="subheader">
                 <h4 class="instruction">3) Spread out flex items</h4>
-                <p class="code-style">justify-content: space-evenly;</p>
+                <p class="code-style">{ justify-content: space-evenly; }</p>
             </div>
 
             <div class="flex-container6 f-c-color">
@@ -188,7 +188,7 @@
             </div>
 
             <div class="subheader">
-                <p class="code-style">justify-content: space-between;</p>
+                <p class="code-style">{ justify-content: space-between; }</p>
             </div>
 
             <div class="flex-container7 f-c-color">
@@ -227,7 +227,7 @@
 
             <div class="subheader">
                 <h4 class="instruction">4) Align flex items in a second direction</h4>
-                <p class="code-style">justify-content: center; align-items: center;</p>
+                <p class="code-style">{ justify-content: center; align-items: center; }</p>
             </div>
 
             <div class="flex-container9 f-c-color">
@@ -275,7 +275,7 @@
             </header>
             <div class="subheader">
                 <h4 class="instruction">1) Allow flex items to wrap into other rows/columns</h4>
-                <p class="code-style">flex-wrap: wrap;</p>
+                <p class="code-style">{ flex-wrap: wrap; }</p>
             </div>
 
             <div class="flex-container11 f-c-color">
@@ -295,7 +295,7 @@
 
             <div class="subheader">
                 <h4 class="instruction">2) Reverse wrapping</h4>
-                <p class="code-style">flex-wrap: wrap-reverse;</p>
+                <p class="code-style">{ flex-wrap: wrap-reverse; }</p>
             </div>
 
             <div class="flex-container12 f-c-color">
@@ -315,7 +315,7 @@
 
             <div class="subheader">
                 <h4 class="instruction">3) Justify position of lines of elements</h4>
-                <p class="code-style"> flex-wrap: wrap; align-content: flex-start;</p>
+                <p class="code-style"> { flex-wrap: wrap; align-content: flex-start; }</p>
             </div>
 
             <div class="flex-container13 f-c-color">
@@ -341,8 +341,8 @@
             </header>
             <div class="subheader">
                 <h4 class="instruction">1) Expand elements</h4>
-                <p class="code-style">.flex-item:nth-of-type(1){  flex-grow: 1;}</p>
-                <p class="code-style">.flex-item:nth-of-type(2) {  flex-grow: 2;}</p>
+                <p class="code-style">.flex-item:nth-of-type(1){ flex-grow: 1;}</p>
+                <p class="code-style">.flex-item:nth-of-type(2) { flex-grow: 2;}</p>
 
             </div>
     
@@ -362,9 +362,9 @@
             </div>
 
             <div class="subheader">
-                <h4 class="instruction">1) Expand elements</h4>
-                <p class="code-style">.flex-item:nth-of-type(1){  flex-shrink: 1;}</p>
-                <p class="code-style">.flex-item:nth-of-type(2) {  flex-shrink: 2;}</p>
+                <h4 class="instruction">2) Shrink elements</h4>
+                <p class="code-style">.flex-item:nth-of-type(1){ flex-shrink: 1;}</p>
+                <p class="code-style">.flex-item:nth-of-type(2) { flex-shrink: 2;}</p>
 
             </div>
         
@@ -382,10 +382,55 @@
                     <p>Div Three</p>
                 </div>
             </div>
+
+
+            <div class="subheader">
+                <h4 class="instruction">3) Set the size of elements</h4>
+                <p class="code-style">.flex-item:nth-of-type(1){ flex-basis: 200px;}</p>
+                <p class="code-style">.flex-item:nth-of-type(2) { flex-basis: 10%;}</p>
+
+            </div>
+        
+            <div class="flex-container16 f-c-color">
+                <div class="flex-items16 f-i-color">
+                    <img src="assets/luke.jpg" alt="No!!!!!!!!No!!!">
+                    <p>Div One</p>
+                </div>
+                <div class="flex-items16 f-i-color">
+                    <img src="assets/count.png" alt="One! Two! The number two! Ha aha ha ha!">
+                    <p>Div Two</p>
+                </div>
+                <div class="flex-items16 f-i-color">
+                    <img src="assets/link.png" alt="Da-da-da! Daaa!">
+                    <p>Div Three</p>
+                </div>
+            </div>      
+            
+            <div class="subheader">
+                <h4 class="instruction">4) Put flex-grow, flex-shrink, and flex-basis together</h4>
+                <p class="code-style">.flex-item:nth-of-type(1) { flex: 1 0 100px; }</p>
+                <p class="code-style">.flex-item:nth-of-type(2) { flex: 2 0 10%; }</p>
+
+            </div>
+        
+            <div class="flex-container17 f-c-color">
+                <div class="flex-items17 f-i-color">
+                    <img src="assets/luke.jpg" alt="No!!!!!!!!No!!!">
+                    <p>Div One</p>
+                </div>
+                <div class="flex-items17 f-i-color">
+                    <img src="assets/count.png" alt="One! Two! The number two! Ha aha ha ha!">
+                    <p>Div Two</p>
+                </div>
+                <div class="flex-items17 f-i-color">
+                    <img src="assets/link.png" alt="Da-da-da! Daaa!">
+                    <p>Div Three</p>
+                </div>
+            </div>     
         </section>
     </main>
     <footer>
-        <h2>Thanks for visiting this tutorial page. We at fCC jxn ms would love to have you join us 
+        <h2>Thanks for visiting this tutorial page. FreeCodeCamp Jackson, MS would love to have you join us 
             at one of our monthly meetings or our more frequent virtual meetings.
         </h2>
         <h2>Check out the 
