@@ -145,7 +145,7 @@ nav ul li {
     margin-top: 0;
 }
 
-/* Flex-Container Stylings */
+/* Flex-Container Stylings => this section is divided by levels 1 to 4 */
 
 /* level 1 */
 .flex-container {
@@ -207,6 +207,7 @@ nav ul li {
     align-self: flex-end;
 }
 
+/* level 3 */
 .flex-container11 {
     display: flex;
     flex-wrap: wrap;
@@ -223,6 +224,7 @@ nav ul li {
     align-content: flex-start;
 }
 
+/* level 4 */
 .flex-container14 {
     display: flex;
 
